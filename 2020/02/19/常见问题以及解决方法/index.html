@@ -90,7 +90,7 @@
 <meta property="og:image" content="http://yoursite.com/assets/2.png">
 <meta property="og:image" content="http://yoursite.com/assets/3.png">
 <meta property="article:published_time" content="2020-02-19T11:47:17.000Z">
-<meta property="article:modified_time" content="2020-02-20T03:12:14.422Z">
+<meta property="article:modified_time" content="2020-02-20T05:35:47.459Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://yoursite.com/assets/1.png">
@@ -308,10 +308,14 @@
 </blockquote>
 <p><strong>一.Hexo博客的本地搭建</strong><br>  1.首先需要配置运行环境，即Node.js和Git的安装，再根据老师博客里的指令测试。我在安装完Hexo后，在cmd下使用了npm install hexo-cli -g指令看到了hexo-cil的版本号，我是个有强迫症的人，必须确定它是否安装好没，便在cmd输入hexo -v指令，然后我发现cmd并没有显示Hexo的各种版本信息，<img src="/assets/1.png" alt="img">那就是hexo没安装好了，我又安装一次，还是一样的结果。我又打开了Git Bash在窗口下输入hexo -v的指令，意外的它显示了版本信息，又正常了。<img src="/assets/2.png" alt="img"><br>  对比两张图，会发现前者有中文路径名，后者没有，所以问题出现在中文用户名这。</p>
 <ul>
-<li>我们需要改中文用户名，先鼠标右击开始处，选择运行，在对话框中搜索regedit（注册表编辑器），打开，我们可以将此路径（计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList）粘贴到最上面，直接转入到我们需要改的文件，找到最长的子目录，一般为S-1-5-21开头的，把 ProfileImagePath 这个数据上的路径改成你的新名字。改完后注销用户，再登陆后你会发现变成了临时用户，在用户目录里把要改的用户文件夹改成新名字，注销后就可以正常登陆了。<br><strong><em>注</em></strong>：  </li>
-<li>cmd入口在开始处右击，进入运行，搜索cmd回车就可以了。</li>
-<li>md的意思是创建，新建。cd是进入XXX文件夹。<br><strong>二.自己手动写博文</strong><br>1.设置编辑器路径时，新建scripts目录，和子文件auto_open.js。这个文件用记事本打开就好了。老师中博客给的是Windows端，Mac os端有点稍稍的不同，将”start”改成”open -a”即可。<br><strong>三.Hexo博客乔迁Github之旅</strong><br>1.在新建仓库时，要注意勾选<img src="/assets/3.png" alt="img">，我开始建立两次，都没有出现我的网页地址，勾选了以后才出现，你们也可以试试不勾选可不可以，可能只有我一个人是这样。仓库没有地址时，可以选择在setting里，最底下，删除此仓库。<br>2.我在最后一步hexo d部署时，屡次上传不成功，cmd也显示很多错误信息，原因在与本地和Github网站没连接成功。我采用的是ssh连接，可以参考这个网站配置ssh密钥。<a href="https://www.cnblogs.com/zwdeblog/p/9708503.html" target="_blank" rel="noopener">https://www.cnblogs.com/zwdeblog/p/9708503.html</a></li>
+<li><p>我们需要改中文用户名，先鼠标右击开始处，选择运行，在对话框中搜索regedit(注册表编辑器)打开，我们可以将此路径（计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList）粘贴到最上面，直接转入到我们需要改的文件，找到最长的子目录，一般为S-1-5-21开头的，把 ProfileImagePath 这个数据上的路径改成你的新名字。改完后注销用户，再登陆后你会发现变成了临时用户，在用户目录里把要改的用户文件夹改成新名字，注销后就可以正常登陆了。<br><strong><em>注</em></strong>：  </p>
+</li>
+<li><p>cmd入口在开始处右击，进入运行，搜索cmd回车就可以了。</p>
+</li>
+<li><p>md的意思是创建，新建。cd是进入XXX文件夹。  </p>
+</li>
 </ul>
+<p>  <strong>二.自己手动写博文</strong><br>  1.设置编辑器路径时，新建scripts目录，和子文件auto_open.js。这个文件用记事本打开就好了。老师中博客给的是Windows端，Mac os端有点稍稍的不同，将”start”改成”open -a”即可。<br>  <strong>三.Hexo博客乔迁Github之旅</strong><br>    1.在新建仓库时，要注意勾选<img src="/assets/3.png" alt="img">，我开始建立两次，都没有出现我的网页地址，勾选了以后才出现，你们也可以试试不勾选可不可以，可能只有我一个人是这样。仓库没有地址时，可以选择在setting里，最底下，删除此仓库。<br>    2.我在最后一步hexo d部署时，屡次上传不成功，cmd也显示很多错误信息，原因在与本地和Github网站没连接成功。我采用的是ssh连接，可以参考这个网站配置ssh密钥。<a href="https://www.cnblogs.com/zwdeblog/p/9708503.html" target="_blank" rel="noopener">https://www.cnblogs.com/zwdeblog/p/9708503.html</a></p>
 
       
     </div>
