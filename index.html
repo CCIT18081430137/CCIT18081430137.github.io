@@ -361,40 +361,42 @@
         
           
             <h1 id="HEXO的搭建"><a href="#HEXO的搭建" class="headerlink" title="HEXO的搭建"></a>HEXO的搭建</h1><h4 id="一、配置hexo的环境"><a href="#一、配置hexo的环境" class="headerlink" title="一、配置hexo的环境"></a>一、配置hexo的环境</h4><p>1.我们需安装<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">Node.js</a>和<a href="https://git-scm.com/" target="_blank" rel="noopener">Git</a>两个软件</p>
-<p>①点击安装<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">Node.js</a>，最好选择10以上的版本，完成后我们在cmd中输入如下指令<img src="/4.png" alt="img" style="zoom:150%;" /></p>
+<p>①点击安装<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">Node.js</a>，最好选择10以上的版本，完成后我们在cmd中输入如下指令<img src="/4.png" alt="img" style="zoom: 150%;" /></p>
 <p>显示Node.js的版本号，即安装成功。</p>
 <p><code>Tips：</code>新版的Node.js已经集成了npm，所以Node.js安装好后npm也一并安装好了。npm全称Node Package Manager，是运行在 Node.js 上的默认包管理工具。</p>
 <p>所以我们输入如下指令:<img src="/5.png" alt="img" style="zoom:150%;" /></p>
 <p>显示npm版本号，即安装成功。</p>
 <p>②点击安装<a href="https://git-scm.com/" target="_blank" rel="noopener">Git</a>，选择最新版本即可，完成后再cmd中输入指令<img src="/6.png" alt="img" style="zoom:150%;" /></p>
 <p>显示Git的各种用法，即安装成功。</p>
-<h4 id="二、安装Hexo"><a href="#二、安装Hexo" class="headerlink" title="二、安装Hexo"></a>二、安装Hexo</h4><p>1.首先在cmd输入如下指令<img src="../assets/hexo搭建/7.png" alt="img" style="zoom:150%;" /></p>
+<h4 id="二、安装Hexo"><a href="#二、安装Hexo" class="headerlink" title="二、安装Hexo"></a>二、安装Hexo</h4><p>1.首先在cmd输入如下指令<img src="/7.png" alt="img" style="zoom:150%;" /></p>
 <p>结果如显示hexo-cli的版本信息，即安装成功。可以用hexo -v指令来核查。</p>
-<p>2.依次执行下面两条语句（建议在Git Bash下执行，我觉得比cmd好点）。<img src="/8.png" alt="img"></p>
+<p>2.依次执行下面两条语句（建议在Git Bash下执行，我觉得比cmd好点）。<img src="/8.png" alt="img" style="zoom: 80%;" /></p>
 <p><code>Tips：</code>md是创建文件夹，cd是进入xx文件夹。所以md blog是在当前路径下</p>
 <p>创建一个名为blog的文件夹，用来保存你的各种博客资源及博文。</p>
 <p>3.初始化hexo博客，执行如下指令</p>
-<p><img src="/9.png" alt="img"></p>
+<img src="/9.png" alt="img" style="zoom: 80%;" />
+
 <p>若实验结果出现“Start blogging with Hexo!”字符串，则表示初始化成功且可以开始写博客了。</p>
 <h4 id="三、本地博客预览"><a href="#三、本地博客预览" class="headerlink" title="三、本地博客预览"></a>三、本地博客预览</h4><p>1.在命令窗口下输入：hexo s</p>
 <p>当执行结果出现”Hexo is running at <code>http://localhost:4000/</code>字符串，则表示启动成功。然后在浏览器中输入上述网址即可。</p>
 <h4 id="四、新建一篇博文"><a href="#四、新建一篇博文" class="headerlink" title="四、新建一篇博文"></a>四、新建一篇博文</h4><p>在此之前，我们需要一个Markdown的开发工具，建议大家使用本地开发工具的<a href="https://www.typora.io/" target="_blank" rel="noopener">Typora</a>。</p>
 <p>1.执行以下语句</p>
-<p><img src="/10.png" alt="img"></p>
+<img src="/10.png" alt="img" style="zoom:80%;" />
+
 <p><code>Tips：</code>双引号里可以用自己的博文名字替代。</p>
 <p>执行完毕后，会在_posts下新生成一篇名为“filename”的文章。</p>
 <p>2.我们在_posts中打开这篇文章，用Typora打开。然后在里面输入你想要的内容。</p>
 <p><code>Tips:</code>附上一个<a href="https://www.runoob.com/markdown/md-link.html" target="_blank" rel="noopener">Markdown教程</a>。</p>
 <h4 id="五、本地查看新博文"><a href="#五、本地查看新博文" class="headerlink" title="五、本地查看新博文"></a>五、本地查看新博文</h4><p>按照如下三步骤：</p>
 <p>1.清除旧数据</p>
-<img src="/11.png" alt="img" style="zoom: 67%;" />
+<img src="/11.png" alt="img" style="zoom:80%;" />
 
 <p>2.生成新数据</p>
-<img src="/12.png" alt="img" style="zoom: 67%;" />
+<img src="/12.png" alt="img" style="zoom:80%;" />
 
 <p>若实验结果出现连续出现<strong>Generated:</strong>字符串，则表示执行成功。</p>
 <p>3.启动Hexo</p>
-<img src="/13.png" alt="img" style="zoom:67%;" />
+<img src="/13.png" alt="img" style="zoom:80%;" />
 
 <p>当执行结果出现”Hexo is running at <strong><a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a></strong>字符串，则表示启动成功。然后在浏览器中输入上述网址即可。如果看到了新页面，则表示成功。</p>
 <h4 id="六、将hexo上传至Github"><a href="#六、将hexo上传至Github" class="headerlink" title="六、将hexo上传至Github"></a>六、将hexo上传至Github</h4><p>1.首先注册Github</p>
@@ -413,7 +415,7 @@
 <p>然后会在.ssh目录产生两个文件：id_rsa和id_rsa.pub，用记事本打开id_rsa.pub文件，复制或者直接执行<strong>cat ~/.ssh/id_rsa.pub</strong>查看。</p>
 <p>2.复制ssh key到github</p>
 <p>进入github官网，在右上角进去Settings，进入SSH and GPG keys,添加密钥，将复制的内容粘贴进去。</p>
-<p><img src="/15.png" alt="img"></p>
+<p><img src="/15-1583141053646.png" alt="img"></p>
 <p>3.测试 ssh 链接 github</p>
 <p>然后可以输入<strong>ssh -T <a href="mailto:git@github.com">git@github.com</a></strong>来测试，当结果出现Successfully就表示可以了。</p>
 <p>4.设置自己的git信息</p>
