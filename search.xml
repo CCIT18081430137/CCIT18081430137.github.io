@@ -13,7 +13,8 @@
 <p>显示Git的各种用法，即安装成功。</p>
 <h4 id="二、安装Hexo"><a href="#二、安装Hexo" class="headerlink" title="二、安装Hexo"></a>二、安装Hexo</h4><p>1.首先在cmd输入如下指令<img src="/assets/hexo搭建/7.png" alt="img" style="zoom:150%;" /></p>
 <p>结果如显示hexo-cli的版本信息，即安装成功。可以用hexo -v指令来核查。</p>
-<p>2.依次执行下面两条语句（建议在Git Bash下执行，我觉得比cmd好点）。<img src="/assets/hexo%E6%90%AD%E5%BB%BA/8.png" alt="img"></p>
+<p>2.依次执行下面两条语句（建议在Git Bash下执行，我觉得比cmd好点）。</p>
+<p><img src="/assets/hexo%E6%90%AD%E5%BB%BA/8.png" alt="img"></p>
 <p><code>Tips：</code>md是创建文件夹，cd是进入xx文件夹。所以md blog是在当前路径下</p>
 <p>创建一个名为blog的文件夹，用来保存你的各种博客资源及博文。</p>
 <p>3.初始化hexo博客，执行如下指令</p>
