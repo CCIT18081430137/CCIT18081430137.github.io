@@ -1,6 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>hexo的美化</title>
+    <url>/2020/03/03/hexo%E7%9A%84%E7%BE%8E%E5%8C%96/</url>
+    <content><![CDATA[<p><code>Biubiubiu ❥(^_-)</code></p>
+<p><code>砰砰砰 ❤</code></p>
+<p>美化开始！冲鸭</p>
+<h3 id="一、安装主题插件"><a href="#一、安装主题插件" class="headerlink" title="一、安装主题插件"></a>一、安装主题插件</h3><p>1.这里我选用的是博客<strong>根目录</strong>打开命令行</p>
+<p>①用5.1版本输入命令</p>
+<p><strong>git clone <a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="noopener">https://github.com/iissnan/hexo-theme-next</a> themes/next</strong></p>
+<p>②6.5版本输入命令</p>
+<p><strong>git clone <a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">https://github.com/theme-next/hexo-theme-next</a> themes/next</strong></p>
+<p>2.安装完成后，打开<strong>博客配置文件</strong>修改最上方的<strong>theme</strong>项为<strong>next</strong>。</p>
+<p>修改完成后命令行输入<code>hexo s</code>本地运行一下看是否生效。</p>
+<p><code>Tips:</code>博客配置文件是指博客根目录下的<strong>_config.yml</strong>文件，主题配置文件是指/themes/主题名/路径下的<strong>_config.yml</strong>文件。</p>
+<p>3.修改语言</p>
+<p>修改<strong>博客配置文件</strong>下的<strong>language</strong>项为<strong>zh-CN</strong>。</p>
+<p><code>Tips:</code>看一下主题文件夹内的<strong>languange</strong>文件夹中中文的配置文件叫什么名字，Next主题有些版本的叫<strong>zh-Hans</strong>那这里就填<strong>zh-Hans</strong>，Next最新版本中用的是<strong>zh-CN</strong>，故这里填写<strong>zh-CN</strong>。</p>
+<p>4.修改主题风格</p>
+<p>Next自带四种主题风格，可以在<strong>主题配置文件</strong>搜索Scheme项，将需要的风格前的#去掉，注意只能开启一个风格。</p>
+<p>此时执行hexo clean,g,d就会发现主题变了。</p>
+<h3 id="二、插入图片"><a href="#二、插入图片" class="headerlink" title="二、插入图片"></a>二、插入图片</h3><p>1.首先在 <strong>hexo &gt; source</strong>目录下建一个文件夹叫assets，用来保存博客中的图片。</p>
+<p>然后打开Typora的 <strong>文件 &gt; 偏好设置</strong>，进行如下设置。</p>
+<p><img src="../assets/hexo%E7%9A%84%E7%BE%8E%E5%8C%96/mh1.png" alt="img"></p>
+<p>这样的话所有的博客中的图片都将会保存到 <strong>/source/assets/该博客md文件名/图片名称</strong>。</p>
+<p>然后在typora菜单栏点击 <strong>格式-&gt;图像-&gt;设置图片根目录</strong>，将<strong>hexo/source</strong>作为其根目录即可。</p>
+<p><code>Tips:</code><strong>一定要先设置了图片根目录后再插入图片，否则图片路径会不正确喔！</strong></p>
+<h3 id="三、添加评论功能"><a href="#三、添加评论功能" class="headerlink" title="三、添加评论功能"></a>三、添加评论功能</h3><p>PS：这里我说的是友言评论</p>
+<p>友言的添加方法也极其简单：在友言官网注册账号，得到用户ID<br>将<strong>友言ID</strong>复制到NexT主题的配置文件<strong>_config</strong>中，搜索youyan，将<strong>youyan_uid</strong>前面的#号去掉，将id填写到<strong>youyan_uid：</strong>后面。<br>部署到你的网站。<br>PS：部署成功后可能不会立即显示你的网站，这个时候你去你的网站评论一下就行了。</p>
+<h3 id="四、添加背景音乐"><a href="#四、添加背景音乐" class="headerlink" title="四、添加背景音乐"></a>四、添加背景音乐</h3><p>1.进入网易云，找到自己喜欢的歌单，然后点击<strong>生成外链播放器</strong>，但是由于现在网易云的版权受限保护，会出现这样的提示</p>
+<p><img src="../assets/hexo%E7%9A%84%E7%BE%8E%E5%8C%96/mh2.png" alt="img"></p>
+<p>此时我们可以把鼠标放在<strong>生成外链播放器</strong>上，右击选择检查按钮</p>
+<p><img src="../assets/hexo%E7%9A%84%E7%BE%8E%E5%8C%96/mh3.png" alt="img"></p>
+<p>将此代码复制出来，选取这一部分<strong>/outchain/0/2578068117/</strong></p>
+<p><img src="../assets/hexo%E7%9A%84%E7%BE%8E%E5%8C%96/mh4.png" alt="img"></p>
+<p>然后浏览，会发现此时已经生成了外链，并且将最下方的代码复制</p>
+<p><img src="../assets/hexo%E7%9A%84%E7%BE%8E%E5%8C%96/mh5.png" alt="img"></p>
+<p>粘贴到<strong>blog/themes/next/layout/_macro/sidebar.swig</strong>文件下</p>
+<p><img src="../assets/hexo%E7%9A%84%E7%BE%8E%E5%8C%96/mh6.png" alt="img"></p>
+<p>然后保存即可，在执行三步骤，就可以看到这样有音乐播放器了。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>hexo搭建</title>
     <url>/2020/03/02/hexo%E6%90%AD%E5%BB%BA/</url>
     <content><![CDATA[<h1 id="HEXO的搭建"><a href="#HEXO的搭建" class="headerlink" title="HEXO的搭建"></a>HEXO的搭建</h1><h4 id="一、配置hexo的环境"><a href="#一、配置hexo的环境" class="headerlink" title="一、配置hexo的环境"></a>一、配置hexo的环境</h4><p>1.我们需安装<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">Node.js</a>和<a href="https://git-scm.com/" target="_blank" rel="noopener">Git</a>两个软件</p>
