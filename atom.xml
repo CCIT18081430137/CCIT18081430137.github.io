@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-17T08:11:15.605Z</updated>
+  <updated>2020-06-16T10:34:27.878Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,50 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>网页如何显示连接蓝牙设备</title>
+    <link href="http://yoursite.com/2020/06/16/%E7%BD%91%E9%A1%B5%E5%A6%82%E4%BD%95%E6%98%BE%E7%A4%BA%E8%BF%9E%E6%8E%A5%E8%93%9D%E7%89%99%E8%AE%BE%E5%A4%87/"/>
+    <id>http://yoursite.com/2020/06/16/%E7%BD%91%E9%A1%B5%E5%A6%82%E4%BD%95%E6%98%BE%E7%A4%BA%E8%BF%9E%E6%8E%A5%E8%93%9D%E7%89%99%E8%AE%BE%E5%A4%87/</id>
+    <published>2020-06-16T10:15:48.000Z</published>
+    <updated>2020-06-16T10:34:27.878Z</updated>
+    
+    <content type="html"><![CDATA[<h6 id="本篇文章里使用的设备为Micro-bit-利用它来学习如何连接蓝牙设备。"><a href="#本篇文章里使用的设备为Micro-bit-利用它来学习如何连接蓝牙设备。" class="headerlink" title="本篇文章里使用的设备为Micro:bit,利用它来学习如何连接蓝牙设备。"></a>本篇文章里使用的设备为Micro:bit,利用它来学习如何连接蓝牙设备。</h6><blockquote><p>Micro:bit是一款由英国广播电视公司（BBC）推出的专为青少年编程教育设计的<a href="https://baike.sogou.com/lemma/ShowInnerLink.htm?lemmaId=546922&ss_c=ssc.citiao.link" target="_blank" rel="noopener">微型电脑</a><a href="https://baike.sogou.com/lemma/ShowInnerLink.htm?lemmaId=7836650&ss_c=ssc.citiao.link" target="_blank" rel="noopener">开发板</a>。2016年3月-6月，micro:bit在英国全线铺开，BBC在线上线下配套了大量的项目教程资源和活动。BBC希望通过micro:bit驱动青少年参与到创造性的硬件制作和软件编程中去，而不是每天沉浸在各式的娱乐和消费中。</p></blockquote><h4 id="一、测试Micro-bit在本机上是否连接成功"><a href="#一、测试Micro-bit在本机上是否连接成功" class="headerlink" title="一、测试Micro:bit在本机上是否连接成功"></a>一、测试Micro:bit在本机上是否连接成功</h4><ol><li><p>先将板子通过USB口连接到电脑上，此时我们会发现电脑里会多出一个盘符（如图）。</p><p><img src="/assets/%E7%BD%91%E9%A1%B5%E5%A6%82%E4%BD%95%E6%98%BE%E7%A4%BA%E8%BF%9E%E6%8E%A5%E8%93%9D%E7%89%99%E8%AE%BE%E5%A4%87/tp1.png" alt="img"></p></li><li><p>到官网去下载我们需要的测试程序。<a href="https://makecode.microbit.org/#" target="_blank" rel="noopener">https://makecode.microbit.org/#</a></p><p><img src="/assets/%E7%BD%91%E9%A1%B5%E5%A6%82%E4%BD%95%E6%98%BE%E7%A4%BA%E8%BF%9E%E6%8E%A5%E8%93%9D%E7%89%99%E8%AE%BE%E5%A4%87/tp2.png" alt="img"></p></li></ol><p>下载完成后，我们将程序拖入多出的盘符中。</p><p><img src="/assets/%E7%BD%91%E9%A1%B5%E5%A6%82%E4%BD%95%E6%98%BE%E7%A4%BA%E8%BF%9E%E6%8E%A5%E8%93%9D%E7%89%99%E8%AE%BE%E5%A4%87/tp3.png" alt="img"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h6 id=&quot;本篇文章里使用的设备为Micro-bit-利用它来学习如何连接蓝牙设备。&quot;&gt;&lt;a href=&quot;#本篇文章里使用的设备为Micro-bit-利用它来学习如何连接蓝牙设备。&quot; class=&quot;headerlink&quot; title=&quot;本篇文章里使用的设备为Micro:bit
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>网页蓝牙开发</title>
+    <link href="http://yoursite.com/2020/06/16/%E7%BD%91%E9%A1%B5%E8%93%9D%E7%89%99%E5%BC%80%E5%8F%91/"/>
+    <id>http://yoursite.com/2020/06/16/%E7%BD%91%E9%A1%B5%E8%93%9D%E7%89%99%E5%BC%80%E5%8F%91/</id>
+    <published>2020-06-16T09:59:45.000Z</published>
+    <updated>2020-06-16T10:15:06.165Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="本课程主要讲解如何实现网页蓝牙的开发。"><a href="#本课程主要讲解如何实现网页蓝牙的开发。" class="headerlink" title="本课程主要讲解如何实现网页蓝牙的开发。"></a>本课程主要讲解如何实现网页蓝牙的开发。</h5><h6 id="首先我们可以先来了解一下蓝牙的背景："><a href="#首先我们可以先来了解一下蓝牙的背景：" class="headerlink" title="首先我们可以先来了解一下蓝牙的背景："></a>首先我们可以先来了解一下蓝牙的背景：</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">蓝牙是一种低成本大容量的短距离无线通信规范。蓝牙笔记本电脑，就是具有蓝牙无线通信功能的笔记本电脑。蓝牙这个名字还有一段传奇故事呢。公元10世纪，北欧诸侯争霸，丹麦国王挺身而出，在他的不懈努力下，血腥的战争被制止了，各方都坐到了谈判桌前。一千年后的今天，当新的无线通信规范出台时，人们又用蓝牙来为它命名。1995年，爱立信公司最先提出蓝牙概念。蓝牙技术不仅仅运用于电脑，像移动电话、数字相机、摄像机、打印机、传真机、家用 电器等许许多多电子设备都可以采用蓝牙技术，实现无线联通，而不必拖一条尾巴（连接线）。随着蓝牙技术的普及，家庭装修时不再为电器的布线而烦恼；使用家用 电器时，不必为一大堆遥控器而头痛，一部手机或是一把汽车钥匙就能一切搞定；出门在外，公司的工作安排和家里亲人的画面可以随时随地得到；打卡、缴费不用排队，从缴费点附近经过，不必进门就可以轻松完成。蓝牙技术的广泛应用将使我们的生活无比轻松。Car100内置电池，但并没有配置特别的充电器。三、刚开始佩戴会有些不习惯，可能是使用者把耳塞塞得太紧，弄得好像隔着什么，听不清周围的声音。蓝牙（Bluetooth）是一种低功率短距离的无线连接技术标准的代称，蓝牙一词取自一位在公元10世纪统一了丹麦的国王，哈拉德二世、（Harald）的绰号，即蓝牙（Bluetooth）。蓝牙技术的最初倡导者是五家世界著名的计算机和通信公司：爱立信Ericsson, 国际商用机器IBM, 英特尔Intel, 诺基亚Nokia, 和东芝Toshiba。其目标是实现最高数据传输速度1Mbps(有效传输速度为721kbps)、最大传输距离达10米，用户不必经过允许便可利用2.4GHz的ISM(工业、科学、医学)频带，在其上设立79个带宽为1MHz的信道，用每秒钟切换1600次的频率、滚齿(hobbing)方式的频谱扩散技术来实现电波的收发。遵从这一规格的移动电话和笔记本电脑将于1999年底或2000年初上市。由此可见蓝牙早期发展阶段植入成本还是比较高的。</span><br></pre></td></tr></table></figure><h6 id="接下来，我们做环境准备"><a href="#接下来，我们做环境准备" class="headerlink" title="接下来，我们做环境准备"></a>接下来，我们做环境准备</h6><blockquote><p>确认本机上是否安装了蓝牙</p><p>检查本机系统以及chrome浏览器的版本</p><p>下载固件至开发板</p></blockquote><p>做完这些准备之后，就可以进行下一步连接设备。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h5 id=&quot;本课程主要讲解如何实现网页蓝牙的开发。&quot;&gt;&lt;a href=&quot;#本课程主要讲解如何实现网页蓝牙的开发。&quot; class=&quot;headerlink&quot; title=&quot;本课程主要讲解如何实现网页蓝牙的开发。&quot;&gt;&lt;/a&gt;本课程主要讲解如何实现网页蓝牙的开发。&lt;/h5&gt;&lt;h6 i
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>hexo的美化</title>
