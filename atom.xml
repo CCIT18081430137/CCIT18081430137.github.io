@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-06-16T10:34:27.878Z</updated>
+  <updated>2020-06-16T10:36:55.591Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2020/06/16/%E7%BD%91%E9%A1%B5%E5%A6%82%E4%BD%95%E6%98%BE%E7%A4%BA%E8%BF%9E%E6%8E%A5%E8%93%9D%E7%89%99%E8%AE%BE%E5%A4%87/"/>
     <id>http://yoursite.com/2020/06/16/%E7%BD%91%E9%A1%B5%E5%A6%82%E4%BD%95%E6%98%BE%E7%A4%BA%E8%BF%9E%E6%8E%A5%E8%93%9D%E7%89%99%E8%AE%BE%E5%A4%87/</id>
     <published>2020-06-16T10:15:48.000Z</published>
-    <updated>2020-06-16T10:34:27.878Z</updated>
+    <updated>2020-06-16T10:36:55.591Z</updated>
     
     <content type="html"><![CDATA[<h6 id="本篇文章里使用的设备为Micro-bit-利用它来学习如何连接蓝牙设备。"><a href="#本篇文章里使用的设备为Micro-bit-利用它来学习如何连接蓝牙设备。" class="headerlink" title="本篇文章里使用的设备为Micro:bit,利用它来学习如何连接蓝牙设备。"></a>本篇文章里使用的设备为Micro:bit,利用它来学习如何连接蓝牙设备。</h6><blockquote><p>Micro:bit是一款由英国广播电视公司（BBC）推出的专为青少年编程教育设计的<a href="https://baike.sogou.com/lemma/ShowInnerLink.htm?lemmaId=546922&ss_c=ssc.citiao.link" target="_blank" rel="noopener">微型电脑</a><a href="https://baike.sogou.com/lemma/ShowInnerLink.htm?lemmaId=7836650&ss_c=ssc.citiao.link" target="_blank" rel="noopener">开发板</a>。2016年3月-6月，micro:bit在英国全线铺开，BBC在线上线下配套了大量的项目教程资源和活动。BBC希望通过micro:bit驱动青少年参与到创造性的硬件制作和软件编程中去，而不是每天沉浸在各式的娱乐和消费中。</p></blockquote><h4 id="一、测试Micro-bit在本机上是否连接成功"><a href="#一、测试Micro-bit在本机上是否连接成功" class="headerlink" title="一、测试Micro:bit在本机上是否连接成功"></a>一、测试Micro:bit在本机上是否连接成功</h4><ol><li><p>先将板子通过USB口连接到电脑上，此时我们会发现电脑里会多出一个盘符（如图）。</p><p><img src="/assets/%E7%BD%91%E9%A1%B5%E5%A6%82%E4%BD%95%E6%98%BE%E7%A4%BA%E8%BF%9E%E6%8E%A5%E8%93%9D%E7%89%99%E8%AE%BE%E5%A4%87/tp1.png" alt="img"></p></li><li><p>到官网去下载我们需要的测试程序。<a href="https://makecode.microbit.org/#" target="_blank" rel="noopener">https://makecode.microbit.org/#</a></p><p><img src="/assets/%E7%BD%91%E9%A1%B5%E5%A6%82%E4%BD%95%E6%98%BE%E7%A4%BA%E8%BF%9E%E6%8E%A5%E8%93%9D%E7%89%99%E8%AE%BE%E5%A4%87/tp2.png" alt="img"></p></li></ol><p>下载完成后，我们将程序拖入多出的盘符中。</p><p><img src="/assets/%E7%BD%91%E9%A1%B5%E5%A6%82%E4%BD%95%E6%98%BE%E7%A4%BA%E8%BF%9E%E6%8E%A5%E8%93%9D%E7%89%99%E8%AE%BE%E5%A4%87/tp3.png" alt="img"></p>]]></content>
     
